@@ -1,14 +1,35 @@
 {
-    "users": [
+    "sapItems": [
         {
-            "id": "1",
-            "name": "ls",
-            "age": 18
-        },
-        {
-            "id": "2",
-            "name": "ls2",
-            "age": 19
-        }
+  "serialVersionUID": 1,
+  "spras": "demoData",
+  "werks": "demoData",
+  "name1": "demoData",
+  "mtart": "demoData",
+  "matnr": "demoData",
+  "maktx": "demoData",
+  "meins": "demoData",
+  "matkl": "demoData",
+  "wgbez60": "demoData",
+  "bismt": "demoData",
+  "mstae": "demoData",
+  "brgew": 1,
+  "ntgew": 1,
+  "gewei": "demoData",
+  "volum": 1,
+  "voleh": "demoData",
+  "xchar": "demoData",
+  "ersda": "2021/8/30 15:47",
+  "laeda": "2021/8/30 15:47",
+  "lvorm": "demoData",
+  "bstme": "demoData",
+  "umrez": "demoData",
+  "umren": "demoData",
+  "besk": "demoData",
+  "sobsl": "demoData",
+  "bstmi": 1,
+  "bstrf": 1,
+  "lgfsb": "demoData"
+}
     ]
 }
