@@ -1,0 +1,6 @@
+---
+food: Pizza
+---
+
+{{ page.food }}
+
