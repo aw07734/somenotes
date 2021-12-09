@@ -294,7 +294,7 @@ a.myfunc();
 // 箭头函数
 var a = {
     myfunc: function () {
-        setTimeout(function () {
+        setTimeout(() => {
             console.log(this); // this 是 a
         })
     }
