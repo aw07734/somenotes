@@ -98,13 +98,9 @@ function main(id, isFirstComponent = true) {
     absolutePathToModuleStr[pathToModule] = `${funcWrapper[0]}\n${content}\n${funcWrapper[1]}`;
     const tpl = template.replace('@@map',
         /* requiredIdToModule 中的 functionStr => function */
-        JSON.stringify(requiredIdToModule)
-            .split(",")
-            .map(x => x.replace(/(:)"(.+)"/g, "$1$2")
-                .replace(/\\r\\n/g, "\r\n")
-                .replace(/\\n/g, "\n")
-            )
-            .reduce((x, y) => `${x},${y}`)
+        JSON.stringify(requiredIdToModule).replace(/(:)"(.+?)"/g, "$1$2")
+            .replace(/\\r\\n/g, '\r\n')
+            .replace(/\\n/g, '\n')
     );
     return isFirstComponent ? `
     ${tpl}
