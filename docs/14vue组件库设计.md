@@ -161,3 +161,5 @@ var obj = {
 ```
 
 最外层的 form 来处理所有的数据和提交等信息, form-item 为每一个具体表单元素外层内容, input select 为具体表单内容.
+
+## 例子参见 folder 14
