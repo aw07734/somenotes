@@ -17,6 +17,7 @@
 - [21react高级](21react高级)
 - [22react状态管理redux,mobx](22react状态管理redux,mobx)
 - [23react路由及服务端渲染同构](23react路由及服务端渲染同构)
+- [24react实战](24react实战)
 - [49,50webpack前端打包工具](49,50webpack前端打包工具)
 - TODO
 
