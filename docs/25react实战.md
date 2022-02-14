@@ -119,4 +119,4 @@ useRef 返回的 ref 对象在组建的整个生命周期内保持不变, 也就
 
 有一个子组件 Child 有一个 props 叫做 onClick, number, console.log, 看看子组件是否每次都会随父组件渲染
 
-### 详细代码可参见 仓库 folder 24
+### 详细代码可参见 仓库 folder 25
