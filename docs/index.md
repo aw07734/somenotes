@@ -22,6 +22,7 @@
 - [27react源码解析](27react源码解析)
 - [28nodejs基础](28nodejs基础)
 - [29nodejs框架及实战](29nodejs框架及实战)
+- [30nodejs原理详解](30nodejs原理详解)
 - [49,50webpack前端打包工具](49,50webpack前端打包工具)
 - TODO
 
