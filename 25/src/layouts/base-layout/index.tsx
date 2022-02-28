@@ -31,7 +31,7 @@ const BaseLayout = () => {
             <Main>
                 <Switch>
                     <Redirect from={'/'} to={'/topic/all'} exact />
-                    <Route path={'/topic/:tag'} component={Topic} exact />
+                    <Route path={'/topic/:tag'} component={Topic} key={new Date().getTime()} exact />
                     <Route path={'/article/:id'} component={Article} exact />
                     <Route path={'/user/:name'} component={User} exact />
                     <Route path={'/about'} component={About} exact />

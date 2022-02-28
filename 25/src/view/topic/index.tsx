@@ -11,8 +11,7 @@ const PAGE_SIZE = 20;
 const Skeleton = createSkeleton(5);
 
 const Topic = () => {
-    // @ts-ignore
-    const {tag = ''} = useParams();
+    const {tag = ''} = useParams<{tag: string}>();
     const history = useHistory();
 
     const getTopicByTab = useCallback((info) => {
