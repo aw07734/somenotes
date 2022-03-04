@@ -548,7 +548,7 @@ export const ImageDemo: React.FC<{}> = (props) => {
                             style={styles.img}
                             resizeMode={resizeMode}
                             source={require("../assets/cat.jpg")}
-                        />
+                            />
                     ) : (
                         <Image
                             style={[
@@ -560,7 +560,7 @@ export const ImageDemo: React.FC<{}> = (props) => {
                             ]}
                             resizeMode={resizeMode}
                             source={require("../assets/dog.jpg")}
-                        />
+                            />
                     )}
                 </View>
             </View>
@@ -578,12 +578,14 @@ export const ImageDemo: React.FC<{}> = (props) => {
                                 height: 50
                             }
                         ]}
-                        source={{
-                            uri: "https://reactjs.org/logo-og.png",
-                            width: PixelRatio.getPixelSizeForLayoutSize(50),
-                            height: PixelRatio.getPixelSizeForLayoutSize(50)
-                        }}
-                    />
+                        source={
+                            {
+                                uri: "https://reactjs.org/logo-og.png",
+                                    width: PixelRatio.getPixelSizeForLayoutSize(50),
+                                        height: PixelRatio.getPixelSizeForLayoutSize(50)
+                            }
+                        }
+                        />
                     <Text>{PixelRatio.get()}</Text>
                 </View>
             </View>
@@ -596,7 +598,7 @@ export const ImageDemo: React.FC<{}> = (props) => {
                     <ImageBackground
                         style={styles.bgImage}
                         source={require("../assets/cat.jpg")}
-                    >
+                        >
                         <Text style={styles.caption}>Kitty</Text>
                     </ImageBackground>
                 </View>
@@ -840,7 +842,7 @@ export const SwitchDemo = () => {
         <View style={styles.container}>
             <Text>开关</Text>
             <Switch
-                trackColor={{false: "#767577", true: "#81b0ff"}}
+                trackColor={ {false: "#767577", true: "#81b0ff"} }
                 thumbColor={isEnabled ? "#f5dd4b" : "#f4f3f4"}
                 ios_backgroundColor="#3e3e3e"
                 onValueChange={toggleSwitch}
@@ -1127,7 +1129,7 @@ export const ModalDemo = () => {
                         <Text style={styles.modalText}>Hello World!</Text>
 
                         <TouchableHighlight
-                            style={{...styles.openButton, backgroundColor: "#2196F3"}}
+                            style={ {...styles.openButton, backgroundColor: "#2196F3"} }
                             onPress={() => setModalVisible(!modalVisible)}
                         >
                             <Text style={styles.textStyle}>Hide Modal</Text>
@@ -1308,18 +1310,20 @@ export const ResponderDemo: React.FC<{}> = (props) => {
         <View style={styles.container}>
             <Text style={styles.titleText}>拖拽演示</Text>
             <Animated.View
-                style={{
-                    transform: [
-                        {
-                            translateX: pan.x
-                        },
-                        {
-                            translateY: pan.y
-                        }
-                    ]
-                }}
+                style={
+                    {
+                        transform: [
+                            {
+                                translateX: pan.x
+                            },
+                            {
+                                translateY: pan.y
+                            }
+                        ]
+                    }
+                }
                 {...panResponder.panHandlers}
-            >
+                >
                 <View style={styles.box}></View>
             </Animated.View>
         </View>
@@ -1372,7 +1376,7 @@ export const ShareDemo = () => {
     };
 
     return (
-        <View style={{marginTop: 50}}>
+        <View style={ {marginTop: 50} }>
             <Button onPress={onShare} title="Share" />
             <Text>share status: {shareStatus}</Text>
         </View>
