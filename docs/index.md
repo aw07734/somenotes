@@ -32,6 +32,7 @@
 - [37Flutter入门](37Flutter入门)
 - [39AST必知必会](39AST必知必会)
 - [40Flutter实战](40Flutter实战)
+- [41排序算法](41排序算法)
 - [49,50webpack前端打包工具](49,50webpack前端打包工具)
 - TODO
 
