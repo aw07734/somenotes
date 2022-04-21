@@ -102,7 +102,7 @@ console.log('hello');
 - process.nextTick
 - Promise 的 then 方法
 
-> 任务队列被分为 1. 宏任务队列 和 2. 为任务队列
+> 任务队列被分为 1. 宏任务队列 和 2. 微任务队列
 >
 > 微任务队列率先执行, 直到清空
 >
