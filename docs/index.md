@@ -70,3 +70,8 @@
 - [Lucene](./back/20Lucene/Lucene)
 - [redis](./back/redis/redis)
 - [Docker](./back/Docker/Docker基础篇之快速上手)
+- [Nginx](./back/nginx/Nginx)
+- [Gradle](./back/other/Gradle)
+- [Shiro](./back/other/Shiro)
+- [SpringSecurity](./back/other/SpringSecurity)
+- [SpringCloud](./back/other/SpringCloud_note.html)
