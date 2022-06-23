@@ -74,4 +74,3 @@
 - [Gradle](./back/other/Gradle)
 - [Shiro](./back/other/Shiro)
 - [SpringSecurity](./back/other/SpringSecurity)
-- [SpringCloud](./back/other/SpringCloud_note.html)
