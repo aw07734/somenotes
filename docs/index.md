@@ -42,7 +42,7 @@
 - [48浏览器原理](48浏览器原理)
 - [49,50webpack前端打包工具](49,50webpack前端打包工具)
 
-### 这是一些后端笔记
+### 这是一些后端的笔记.
 
 - [bxd_Java 基础 01](./back/bxd_Java基础/01/bxd_Java基础01)
 - [bxd_Java 基础 02](./back/bxd_Java基础/02/bxd_Java基础02)
