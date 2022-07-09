@@ -193,7 +193,7 @@ const util = {
     },
     text(node, content, vm) {
         let value;
-        if (content.includes('{{')) {
+        if (content.includes('{{')) {//}}')) {
             value = content.replace(/\{\{(.+)\}\}/g, (...args) => {
                 new Watcher(args[1], vm, newVal => {
                     this.updater.textUpdate(node, newVal);
