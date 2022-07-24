@@ -397,7 +397,7 @@ mapper.save(u);
 
 01_15
 
-<img src="img/01_15.png" style="zoom:150%;" />
+![img/01_15.png](img/01_15.png)
 
 ## ResultMap映射
 
@@ -699,7 +699,7 @@ Department字段	`Long id`,`String name`
 
 ### 保存
 
-<img src="img/02_03.png" style="zoom:150%;" />
+![img/02_03.png](img/02_03.png)
 
 如果先保存employee(many方)
 

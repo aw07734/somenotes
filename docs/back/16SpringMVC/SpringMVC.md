@@ -430,7 +430,7 @@ public ModelAndView method4(
 
 前台访问地址:localhost/test/method
 
-<img src="img/09.png" alt="image-20200812110238137" style="zoom:150%;" />
+![img/09.png](img/09.png)
 
 ## 拦截器定义
 
@@ -660,13 +660,13 @@ public class FileController {
 
 没有做太多的封装,还是使用servlet下载方式
 
-<img src="img/13.png" style="zoom:150%;" />
+![img/13.png](img/13.png)
 
 ## 源码解析
 
 14
 
-<img src="img/14.png" style="zoom:150%;" />
+![img/14.png](img/14.png)
 
 重点看`doDispatch(request, response);`这部分
 

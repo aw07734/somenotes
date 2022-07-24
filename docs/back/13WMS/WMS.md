@@ -247,7 +247,7 @@ store拦截器放在workflow拦截器前面
 
 **store只对action之间的重定向有效**
 
-<img src="img/02_02.png" alt="store拦截器解决重定向数据丢失问题" style="zoom:150%;" />
+![img/02_02.png](img/02_02.png)
 
 ## 错误和消息的提示处理以及修改ParametersInterceptor源代码
 
@@ -265,7 +265,7 @@ store拦截器放在workflow拦截器前面
 
 前台显示
 
-<img src="img/02_03.png" style="zoom:150%;" />
+![img/02_03.png](img/02_03.png)
 
 ## jQuery插件 - artDialog对话框
 
@@ -947,7 +947,7 @@ public class XmlUtil {
 
 03_07
 
-<img src="img/03_01.png" style="zoom:150%;" />
+![img/03_01.png](img/03_01.png)
 
 ## jQuery插件 - zTree菜单树
 
@@ -1056,7 +1056,7 @@ thumbnailator工具
 ```html
 <!-- class可以自定义 -->
 <a class="fancyBox" href="<s:property value='imagePath' />" title="<s:property value='name' />">
-	<img src="<s:property value='smallImagePath' />" class="list_img" />
+	![<s:property value='smallImagePath' />](<s:property value='smallImagePath' />)
 </a>
 ```
 
@@ -1349,7 +1349,7 @@ $(function() {
 
 **HQL支持date_format函数**,和MySQL使用方式相同
 
-<img src="img/08_01.png" style="zoom:150%;" />
+![img/08_01.png](img/08_01.png)
 
 ## 使用枚举封装多维分组信息
 

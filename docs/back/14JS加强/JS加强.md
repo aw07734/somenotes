@@ -125,13 +125,13 @@ show();
 
    使用arguments.length来判断实际传入的参数个数
 
-   <img src="img/03.png" alt="image-20200811103123301" style="zoom:150%;" />
+   ![img/03.png](img/03.png)
 
 2. 解决类型不同的问题
 
    使用typeof和instanceof来判断
 
-   <img src="img/03_2.png" alt="image-20200811103306812" style="zoom:150%;" />
+   ![img/03_2.png](img/03_2.png)
 
 ## JS中重载的运用
 
@@ -164,7 +164,7 @@ $.post = function(url, data, callback, type) {
 
 ### jQuery中的源代码
 
-<img src="img/04.png" style="zoom:150%;" />
+![img/04.png](img/04.png)
 
 ## arguments中callee的运用
 
@@ -487,7 +487,7 @@ console.log(cloneObj);
 
 proto：这个属性是Js对象上的隐藏属性，这个属性指向的是该对象对应类型的prototype对象
 
-<img src="img/11.png" alt="image-20200811132840661" style="zoom:150%;" />
+![img/11.png](img/11.png)
 
 JS中对象分为两部分
 
@@ -507,7 +507,7 @@ JS中对象分为两部分
 
 12
 
-<img src="img/12.png" alt="image-20200811140059487" style="zoom:150%;" />
+![img/12.png](img/12.png)
 
 存在的问题:**没办法通过instanceof来判断子类的实例属于父类类型**
 
@@ -542,5 +542,5 @@ console.log(m instanceof Object);//true
 
 ### 原型链继承分析
 
-<img src="img/14.png" style="zoom:150%;" />
+![img/14.png](img/14.png)
 

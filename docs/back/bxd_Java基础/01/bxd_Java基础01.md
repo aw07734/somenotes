@@ -509,7 +509,7 @@ class Person {
 
 > ​	构造函数调用另一个构造函数<font color=red>只能调用一个</font>，必须定义在构造函数的第一行。<font color=red>初始化动作要先执行</font>
 >
-> <img src="img/aw1.png" />
+> ![img/aw1.png](img/aw1.png)
 
 ---
 
@@ -1606,7 +1606,7 @@ class Consumer implements Runnable {
 }
 ```
 
-<img src="img/aw8.png" style="zoom:150%;" />
+![img/aw8.png](img/aw8.png)
 
 **等待唤醒机制**
 
@@ -1677,7 +1677,7 @@ Condition c = lock.new Condition();
 
 day15_29
 
-<img src="img/aw9.png" style="zoom:150%;" />
+![img/aw9.png](img/aw9.png)
 
 ```java
 import java.util.concurrent.locks.Lock;

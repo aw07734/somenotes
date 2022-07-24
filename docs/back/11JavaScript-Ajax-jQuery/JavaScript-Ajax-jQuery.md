@@ -132,7 +132,7 @@ Pserson.prototype.show() {
 }
 ```
 
-<img src="img/01_01.png" alt="image-20200803130012112" style="zoom:150%;" />
+![img/01_01.png](img/01_01.png)
 
 ## 打开新窗口/关闭窗口
 
@@ -264,13 +264,13 @@ checked,selected
 
 02_14 15
 
-<img src="img/02_01.png" alt="image-20200804074109472" style="zoom:150%;" />
+![img/02_01.png](img/02_01.png)
 
 ## 事件绑定
 
 03_03
 
-<img src="img/03_01.png" alt="image-20200804094320563" style="zoom:150%;" />
+![img/03_01.png](img/03_01.png)
 
 # AJAX
 
@@ -362,7 +362,7 @@ ajax.onreadystatechange = function() {
 
 response如果包含中文需要设置编码
 
-<img src="img/04_01.png" alt="image-20200804153150121" style="zoom:150%;" />
+![img/04_01.png](img/04_01.png)
 
 ## 使用AJAX发送POST请求 - 用户登录
 
@@ -372,7 +372,7 @@ post方式需要设置请求头
 
 必须在open之后设置
 
-<img src="img/04_02.png" alt="image-20200804153040398" style="zoom:150%;" />
+![img/04_02.png](img/04_02.png)
 
 ## 二级联动 - XML格式
 
@@ -380,11 +380,11 @@ post方式需要设置请求头
 
 **后台表现层**
 
-<img src="img/04_03.png" alt="image-20200804184443084" style="zoom:150%;" />
+![img/04_03.png](img/04_03.png)
 
 **前台js**
 
-<img src="img/04_04.png" alt="image-20200804184534847" style="zoom:150%;" />
+![img/04_04.png](img/04_04.png)
 
 ## 使用JSON需要注意的地方
 
@@ -410,7 +410,7 @@ post方式需要设置请求头
 
 **依赖jar包**
 
-<img src="img/05_01.png" alt="image-20200805102339473" style="zoom:150%;" />
+![img/05_01.png](img/05_01.png)
 
 核心类:JSONSerializer
 
@@ -454,7 +454,7 @@ Struts2在ValueStack中存储数据,存在两个不同的位置
 
 - **存放在context区域**
 
-  <img src="img/05_02.png" alt="image-20200805105849518" style="zoom:150%;" />
+  ![img/05_02.png](img/05_02.png)
 
 **使用JSON转换工具,不能选择把哪些属性转换为JSON,或者不能忽略哪些属性不能转换为JSON,而Struts2的插件比较容易**
 

@@ -604,7 +604,7 @@ public class Test2<T> {
 
 day20_32
 
-<img src="img/aw03.jpg" style="zoom:150%;" />
+![img/aw03.jpg](img/aw03.jpg)
 
 **泛型通配符**
 
@@ -1109,7 +1109,7 @@ day22_05
 	System.out.println(date);
 	```
 
-   <img src="img/aw08.jpg" style="zoom:150%;" />
+   ![img/aw08.jpg](img/aw08.jpg)
 
 3. "2013-4-25"到"2013年7月29日"到底有多少天
 
@@ -2001,15 +2001,15 @@ IO流对象很多，解决问题到底用哪个对象呢
 
 	day25_34
 
-	<img src="img/aw13.jpg" style="zoom:150%;" />
+	![img/aw13.jpg](img/aw13.jpg)
 
-	<img src="img/aw13.2.jpg" style="zoom: 80%;" />
+	![img/aw13.2.jpg](img/aw13.2.jpg)
 
 4. 读取文本文件打印到屏幕上
 
 	day25_35
 
-	<img src="img/aw14.jpg" style="zoom:150%;" />
+	![img/aw14.jpg](img/aw14.jpg)
 
 	![](aw14.2.jpg)
 
@@ -2017,7 +2017,7 @@ IO流对象很多，解决问题到底用哪个对象呢
 
 	day25_36
 
-	<img src="img/aw15.jpg" style="zoom:150%;" />
+	![img/aw15.jpg](img/aw15.jpg)
 
 ---
 
@@ -3298,11 +3298,11 @@ day32_11
 
 * Array
 
-	<img src="img/aw21.jpg" style="zoom:150%;" />
+	![img/aw21.jpg](img/aw21.jpg)
 
 * Math
 
-	<img src="img/aw22.jpg" style="zoom:150%;" />
+	![img/aw22.jpg](img/aw22.jpg)
 
 * Date
 

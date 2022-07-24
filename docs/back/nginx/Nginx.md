@@ -142,7 +142,7 @@ http {
 
 ​										可以再nginx配置文件中添加 user root; 配置
 
-<img src="image-20210803134654397.png" alt="image-20210803134654397" style="zoom:50%;" />
+![image-20210803134654397.png](image-20210803134654397.png)
 
 ​										然后更改缓冲区配置
 
@@ -156,7 +156,7 @@ http {
 
 ​											proxy_buffer_size 4k;
 
-<img src="image-20210803135235177.png" alt="image-20210803135235177" style="zoom:50%;" />
+![image-20210803135235177.png](image-20210803135235177.png)
 
 2 更改proxy_temp 与 fastcgi_temp文件夹权限
 
@@ -165,11 +165,11 @@ http {
    #(2)更改文件夹所属用户
 		  chown -R root:root /usr/local/nginx/proxy_temp
 
-<img src="image-20210803134051894.png" alt="image-20210803134051894" style="zoom:50%;" />
+![image-20210803134051894.png](image-20210803134051894.png)
 
 3 最终 ./nginx 重启nginx
 
 ​										然后重启nginx (重启nginx的方法至今没找到好用的方式 把工作线程全部kill掉)
 
-<img src="image-20210803132919022.png" alt="image-20210803132919022" style="zoom:50%;" />
+![image-20210803132919022.png](image-20210803132919022.png)
 

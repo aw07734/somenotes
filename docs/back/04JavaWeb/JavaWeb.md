@@ -729,9 +729,9 @@ C(Html主) --> B(动态网页)
 
 上图是Tomcat中conf/web.xml中的部分内容，org.apache.jasper.servlet.JspServlet负责将JSP翻译为Servlet
 
-<img src="img/04_10_2.png" alt="image-20200719112804330" style="zoom:150%;" />
+![img/04_10_2.png](img/04_10_2.png)
 
-<img src="img/04_10_3.png" alt="image-20200719112935056" style="zoom:150%;" />
+![img/04_10_3.png](img/04_10_3.png)
 
 ## JSP中的三大指令
 
@@ -896,7 +896,7 @@ web.xml中配置如下
 
 3. 如果共享数据为null,就输出空字符串
 
-<img src="img/05_02.png" alt="image-20200719145557626" style="zoom:150%;" />
+![img/05_02.png](img/05_02.png)
 
 ## JSTL的基本使用
 
@@ -914,7 +914,7 @@ web.xml中配置如下
 2. 在对应的JSP页面中引入要使用的标签库,比如引入核心标签库
    <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<img src="img/05_04.png" alt="image-20200719154808721" style="zoom:150%;" />
+![img/05_04.png](img/05_04.png)
 
 ## 核心标签库 - 逻辑判断标签
 
@@ -984,7 +984,7 @@ step指定每次加多少
 
 2. 在JSP中引入国际化标签库,再JSP中使用对应的标签实现文本的引入
 
-<img src="img/05_07.png" alt="image-20200719165732473" style="zoom:150%;" />
+![img/05_07.png](img/05_07.png)
 
 ## 关联关系设计
 
@@ -992,7 +992,7 @@ step指定每次加多少
 
 ![image-20200720085125868](img/06_01.png)
 
-<img src="06_02.png" alt="image-20200720085152530" style="zoom:150%;" />
+![06_02.png](06_02.png)
 
 ![image-20200720095724101](img/06_06.png)
 
@@ -1011,7 +1011,7 @@ step指定每次加多少
 boolean isFirst = true;
 ```
 
-<img src="img/06_06_2.png" alt="image-20200720100235429" style="zoom:150%;" />
+![img/06_06_2.png](img/06_06_2.png)
 
 06_07
 
@@ -1422,7 +1422,7 @@ public class HelloFilter implements Filter {
 
 4. 默认情况下,Filter只会对新的请求(包括URL重定向)做拦截,如果是请求转发,则不会过滤
 
-	<img src="img/09_04.png" alt="image-20200722094234251" style="zoom:150%;" />
+	![img/09_04.png](img/09_04.png)
 
 5. Filte可以使用注解进行配置
    > 如果使用注解配置过滤器,Filter的执行顺序有Filter的类名的字母的顺序来决定

@@ -59,7 +59,7 @@
 
 01_02
 
-<img src="img/01_02.png" alt="image-20200722152833399" style="zoom:150%;" />
+![img/01_02.png](img/01_02.png)
 
 ## 前端控制器
 
@@ -727,7 +727,7 @@ public class CheckLoginInterceptor extends AbstractInterceptor {
 
 02_16
 
-<img src="img/02_16.png" alt="image-20200723141033026" style="zoom:150%;" />
+![img/02_16.png](img/02_16.png)
 
 ## ValueStack概述和获取
 
@@ -995,7 +995,7 @@ if (annotatedMethods.contains(method))
 
   判断如果fieldErrors集合有错误信息,决定了应该跳转到哪一个结果视图.
 
-<img src="img/03_08.png" alt="image-20200724072914787" style="zoom:150%;" />
+![img/03_08.png](img/03_08.png)
 
 ### 问题4：修改校验失败的结果视图
 
@@ -1027,7 +1027,7 @@ validateXxx()方法只会对xxx()方法校验
 
 * struts.multipart.maxSize=2097152设置一次请求的最大值,单位字节. 默认是2M
 
-<img src="img/03_10.png" alt="image-20200724083111067" style="zoom:150%;" />
+![img/03_10.png](img/03_10.png)
 
 ### 修改上传文件的类型和单个文件的大小:
 

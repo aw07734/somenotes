@@ -123,7 +123,7 @@ SQL的执行过程
 
 5. 将结果返回给客户端
 
-<img src="img/05.jpg" style="zoom:150%;" />
+![img/05.jpg](img/05.jpg)
 
 SQL执行的最大瓶颈在于磁盘的IO，即数据的读取；不同SQL的写法，会造成不同的执行计划的执行，而不同的执行计划在IO的上面临完全不一样的数量级，从而造成性能的差距
 
@@ -578,7 +578,7 @@ profiling只对本次会话有效
 >
 > 然后合并结果
 
-<img src="img/13.jpg" style="zoom:150%;" />
+![img/13.jpg](img/13.jpg)
 
 #### JOIN优化原则
 

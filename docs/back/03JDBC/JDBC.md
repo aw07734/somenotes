@@ -27,7 +27,7 @@ JDBC:Java DataBase Connectivity
 	*/
 	```
 
-	<img src="img/03_01.png" style="zoom:150%;" />
+	![img/03_01.png](img/03_01.png)
 
 2. 获取连接对象，通过DriverManager的静态方法(getConnection)
 
@@ -67,7 +67,7 @@ JDBC:Java DataBase Connectivity
 
 07
 
-<img src="img/03_07.png" alt="image-20200716162447975" style="zoom:150%;" />
+![img/03_07.png](img/03_07.png)
 
 ## DAO的思想和设计分析
 
@@ -83,7 +83,7 @@ JDBC:Java DataBase Connectivity
 
 12
 
-<img src="img/03_12.png" alt="image-20200716182158085"  />
+![img/03_12.png](img/03_12.png)
 
 ## Jdbc代码重构 - 抽取出JdbcUtil类
 
@@ -93,11 +93,11 @@ JDBC:Java DataBase Connectivity
 
 Connection对象需要保证线程安全，所以不能放在静态代码块中
 
-<img src="img/03_16.png" alt="image-20200716193245406" style="zoom:150%;" />
+![img/03_16.png](img/03_16.png)
 
 在JdbcUtil类中提供close方法用于关闭三个资源对象
 
-<img src="img/03_16_2.png" alt="image-20200716193504976" style="zoom:150%;" />
+![img/03_16_2.png](img/03_16_2.png)
 
 ## Jdbc代码重构 - 抽取出db.properties文件
 
@@ -115,7 +115,7 @@ password=admin
 
 JdbcUtil对应代码更改，反射机制
 
-<img src="img/03_17.png" alt="image-20200716194322075" style="zoom:150%;" />
+![img/03_17.png](img/03_17.png)
 
 ## PreparedStatement基本使用
 
@@ -196,7 +196,7 @@ url=jdbc:mysql://localhost:3306/jdbcdemo?rewriteBatchedStatements=true
 
 24
 
-<img src="img/03_24.png" style="zoom:150%;" />
+![img/03_24.png](img/03_24.png)
 
 ## 为什么需要获取自动生成的主键
 
@@ -269,7 +269,7 @@ DBCP连接池:
 
 * \commons-dbcp-1.3-src\doc\BasicDataSourceExample.java
 
-<img src="img/03_30.png" alt="image-20200717102940801" style="zoom:150%;" />
+![img/03_30.png](img/03_30.png)
 
 ## Druid连接池使用
 
@@ -286,7 +286,7 @@ Java语言领域性能最好的数据库连接池
 
 Druid和DBCP的连接属性是完全相同的,创建连接池的对象不同.
 
-<img src="img/03_32.png" alt="image-20200717113705922" style="zoom:150%;" />
+![img/03_32.png](img/03_32.png)
 
 ## JdbcTemplate的DML(增删改)操作模板
 

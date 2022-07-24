@@ -1145,7 +1145,7 @@ ID:many方的主键值
 
 修改为true即可
 
-<img src="img/03_08.png" alt="image-20200727171334355" style="zoom:150%;" />
+![img/03_08.png](img/03_08.png)
 
 ## 对象的删除
 
@@ -1203,7 +1203,7 @@ hibernate中使用集合只能使用接口
 
 <font color=red>无论inverse是flase还是true，保存one方时many方都会去维护many集合中的list-index</font>
 
-<img src="img/03_10.png" alt="image-20200727182755077" style="zoom:150%;" />
+![img/03_10.png](img/03_10.png)
 
 ### Bag
 
@@ -1211,7 +1211,7 @@ hibernate中使用集合只能使用接口
 
 <font color=red>bag元素只允许映射List接口</font>
 
-<img src="img/03_10_2.png" alt="image-20200727182947843" style="zoom:150%;" />
+![img/03_10_2.png](img/03_10_2.png)
 
 ### 选择
 
@@ -1227,11 +1227,11 @@ hibernate中使用集合只能使用接口
 
 **domain**
 
-<img src="img/03_11.png" alt="image-20200727195422346" style="zoom:150%;" />
+![img/03_11.png](img/03_11.png)
 
-<img src="img/03_12.png" alt="image-20200727195441214" style="zoom:150%;" />
+![img/03_12.png](img/03_12.png)
 
-<img src="img/03_12_2.png" alt="image-20200727195532027" style="zoom:150%;" />
+![img/03_12_2.png](img/03_12_2.png)
 
 ### 选择
 
@@ -2003,7 +2003,7 @@ List<Employee> es = session.getNamedQuery("queryEmployeeByCity")
 
 ### 常见的开源的二级缓存的使用(了解)
 
-<img src="img/05_10.png" alt="image-20200729114855445" style="zoom:150%;" />
+![img/05_10.png](img/05_10.png)
 
 ### 配置
 
@@ -2024,11 +2024,11 @@ List<Employee> es = session.getNamedQuery("queryEmployeeByCity")
 
    * 在映射的class中添加
 
-     <img src="img/05_10_2.png" alt="image-20200729115611020" style="zoom: 200%;" />
+     ![img/05_10_2.png](img/05_10_2.png)
 
    * 在hibernate.cfg.xml中的session-factory配置
 
-     <img src="img/05_10_3.png" alt="image-20200729115721159" style="zoom:200%;" />
+     ![img/05_10_3.png](img/05_10_3.png)
 
    **建议使用第二种，便于维护**
 
@@ -2103,7 +2103,7 @@ hibernate.cache.region_prefix=hibernate
 
 * **查询缓存结果类型中，如果有其他的事务（线程）更新过相同的类型，那么所有关于这个类型的查询缓存全部失效**
 
-<img src="img/05_13.png" alt="image-20200729132949806" style="zoom:150%;" />
+![img/05_13.png](img/05_13.png)
 
 ## 使用
 
