@@ -98,7 +98,7 @@ const List = () => {
 const Item = () => <div></div>;
 ```
 
-![image-20220222095155072](img/构建Fiber.png)
+![image-20220222095155072](img/构建fiber.png)
 
 ##### 对 Fiber 进行更新
 
